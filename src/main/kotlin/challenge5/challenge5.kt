@@ -38,8 +38,6 @@ fun main() {
 }
 
 
-
-
 class Person(val firstName: String, val lastName: String, val age: Int) {
 
     operator fun component1() = firstName
@@ -48,7 +46,7 @@ class Person(val firstName: String, val lastName: String, val age: Int) {
 
 }
 
-class Box<out  T> {
+class Box<out T> {
 
 }
 
